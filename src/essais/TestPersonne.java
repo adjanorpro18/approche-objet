@@ -13,8 +13,6 @@ public class TestPersonne {
                 "Toulouse"
         );
 
-
-
         Personne personne = new Personne(
                 "Dupont" ,
                 "Hervé",
@@ -29,6 +27,7 @@ public class TestPersonne {
                 + personne.adresse.codePostale + ""
                 + personne.adresse.ville);
 
-
+        personne.afficherMajuscule();
     }
+
 }
