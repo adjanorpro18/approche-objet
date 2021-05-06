@@ -5,17 +5,21 @@ import entities.AdressePostale;
 public class TestAdressePostale {
     public static void main(String[] args) {
 
-        AdressePostale adresse = new AdressePostale();
-        adresse.numeroRue = 78;
-        adresse.libelleRue = "Chemin de l'Eglise";
-        adresse.codePostale = "31000";
-        adresse.ville = "Toulouse";
+        AdressePostale adresse = new AdressePostale(
+                78,
+                "Chemin de l'Eglise",
+                "31000",
+                "Toulouse"
+                );
 
-        AdressePostale adresse2 = new AdressePostale();
-        adresse2.numeroRue = 12;
-        adresse2.libelleRue = "Chemin des Maraichers";
-        adresse2.codePostale = "44000";
-        adresse2.ville = "Nantes";
+
+        AdressePostale adresse2 = new AdressePostale(
+                12,
+                "Chemin des Maraichers",
+                "44000",
+                "Nantes"
+        );
+
 
         System.out.println("La première adresse est : "
                 + adresse.numeroRue + " "
