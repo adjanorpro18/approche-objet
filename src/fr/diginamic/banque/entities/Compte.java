@@ -1,8 +1,8 @@
 package fr.diginamic.banque.entities;
 
 public class Compte {
-    private int numero;
-    private double solde;
+    protected int numero;
+    protected double solde;
 
     public Compte(int numero, double solde) {
         this.numero = numero;
@@ -27,9 +27,8 @@ public class Compte {
 
     @Override
     public String toString() {
-        return "Compte{ " +
-                "numero = " + numero +
-                ", solde = " + solde +
-                '}';
+        return
+                "Le numéro de compte " + numero +
+                "a un solde de " + solde + "\n";
     }
 }
