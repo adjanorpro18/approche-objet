@@ -1,7 +1,7 @@
 package fr.diginamic.banque.entities;
 
 public class Cercle implements ObjetGeometrique{
-    private    double rayon;
+    private double rayon;
 
     public Cercle(double rayon) {
         this.rayon = rayon;
