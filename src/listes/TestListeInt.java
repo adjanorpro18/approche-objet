@@ -13,7 +13,7 @@ public class TestListeInt {
         // Afficher tous les elements de la liste
         System.out.println("La liste des éléments de la liste: ");
         for (Integer nombre : nombres) {
-            System.out.println(+ nombre);
+            System.out.println(nombre);
         }
 
         // Afficher la taille de la liste
@@ -31,7 +31,7 @@ public class TestListeInt {
 
         }
 
-        System.out.println("La valeur maximale de la liste des nombres est :"+ plusGrand);
+        System.out.println("La valeur la plus grande de la liste des nombres est :"+ plusGrand);
 
         nombres.remove(plusPetit);
 

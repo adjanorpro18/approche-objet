@@ -15,6 +15,8 @@ public class CreationListe {
            entiers.add(i);
         }
         System.out.println( "La taille de la liste des entiers est de: " + entiers.size());
+
+
     }
 
 }
