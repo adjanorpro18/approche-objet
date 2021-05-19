@@ -14,10 +14,12 @@ import java.util.List;
 public class ManipulationFichier {
     public static void main(String[] args)  {
 
+
         Path path = Paths.get("./recensement.csv");
         Path pathEcriture = Paths.get("./recensement2.csv");
         try {
             List <String> lines = Files.readAllLines(path);
+            System.out.println(lines);
             ArrayList<String> newDatas = new ArrayList<>();
             Iterator<String> iterator = lines.iterator();
             iterator.next();
