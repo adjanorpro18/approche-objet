@@ -32,22 +32,20 @@ public class Application {
             // menu d'affichage des villes
 
                 System.out.println("-------------------------Menu Principal--------------------------");
-                System.out.println("                   1.Population d'une ville donnée                       ");
-                System.out.println("                   2.Population d'un département  donnée                 ");
-                System.out.println("                   3.Population d'une région donnée                      ");
-                System.out.println("                   4.Afficher les 10 régions les plus peuplées           ");
-                System.out.println("                   5.Afficher les 10 départements les plus peuplés       ");
-                System.out.println("                   6.Afficher les 10 villes les plus peuplées d'un département       ");
-                System.out.println("                   7.Afficher les 10 villes les plus peuplées d'une région           ");
-                System.out.println("                   8.Afficher les 10 villes les plus peuplées de France              ");
-                System.out.println("                   9.Quitter                                              ");
-                System.out.println("                   Taper votre choix :                                    ");
+                System.out.println("                   1: POPULATION D'UNE VILLE DONNÉE                      ");
+                System.out.println("                   2: POPULATION D'UN DÉPARTEMENT DONNÉ                  ");
+                System.out.println("                   3: POPULATION D'UNE REGION DONNÉE                     ");
+                System.out.println("                   4: LES DIX RÉGIONS LES PLUS PEUPLÉES                  ");
+                System.out.println("                   5: LES DIX DÉPARTEMENTS LES PLUS PEUPLÉS              ");
+                System.out.println("                   6: LES DIX VILLES LES PLUS PEUPLÉES DU DÉPARTEMENT    ");
+                System.out.println("                   7: LES DIX VILLES LES PLUS PEUPLÉES DE LA RÉGION      ");
+                System.out.println("                   8: LES DIX VILLES LES PLUS PEUPLÉES DE FRANCE         ");
+                System.out.println("                   9: QUITTER                                            ");
+                System.out.println("                   TAPER VOTRE CHOIX :                                   ");
 
             Scanner scanner = new Scanner(System.in);
             int choix = scanner.nextInt();
             //différents choix de methodes
-            do
-            {
                 switch(choix)
                 {
                     case 1:
@@ -97,7 +95,7 @@ public class Application {
                     default:
                         break;
                 }
-            }while(choix == 9);
+
 
 
 
