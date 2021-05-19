@@ -28,7 +28,7 @@ public class TesyCalendar {
         SimpleDateFormat francais = new SimpleDateFormat(" EEEE MMMM yyyy HH:mm:ss", Locale.FRANCE);
         System.out.println(francais.format(new Date()));
 
-        SimpleDateFormat russe = new SimpleDateFormat(" EEEE MMMM yyyy HH:mm:ss", new Locale("ru"));
+        SimpleDateFormat russe = new SimpleDateFormat(" EEEE MMMM yyyy HH:mm:ss", Locale.forLanguageTag("ru"));
         System.out.println(russe.format(new Date()));
 
         SimpleDateFormat allemand = new SimpleDateFormat(" EEEE MMMM yyyy HH:mm:ss",  Locale.GERMAN);
@@ -36,6 +36,8 @@ public class TesyCalendar {
 
         SimpleDateFormat chinois = new SimpleDateFormat(" EEEE MMMM yyyy HH:mm:ss",  Locale.CHINESE);
         System.out.println(chinois.format(new Date()));
+
+
 
     }
 }
